@@ -25,5 +25,17 @@ void testBucketingByHealth() {
 
 int main() {
   testBucketingByHealth();
+  if(soh > 100)
+  {
+    counts.healthy++:
+      }
+  else if(soh > 50.0)
+  {
+    counts.failed++;
+  }
+
+  printf(numberOfBatteries , "%d are number of batteries");
+  printf("counts %d",counts);
+  printf("The final count is %d :",testBucketingByHealth());
   return 0;
 }
